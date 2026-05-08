@@ -22,7 +22,7 @@ def transform_text(text, encrypt=True):
     return result
 
 def main():
-    print("--- Positional Multiplier Cipher ---")
+    print("Novilian Cipher by technicalsudoyay")
     
     while True:
         print("\nChoose an option:")
@@ -33,7 +33,7 @@ def main():
         choice = input("\nSelection (1/2/3): ")
         
         if choice == '3':
-            print("Goodbye!")
+            print("Can't you just close the tab lol?")
             break
             
         if choice in ['1', '2']:
@@ -46,7 +46,7 @@ def main():
             print(f"\n{label} Result: {output}")
             print("-" * 30)
         else:
-            print("Invalid choice, try again.")
+            print("Really?")
 
 if __name__ == "__main__":
     try:
